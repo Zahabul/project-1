@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is my portfolio website" />
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <title>Portfolio &dash; My Work History</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="vendors/css/owl.carousel.min.css" />
+    <!-- Main style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loader Class -->
+    <div class="loader">
+      <img src="assets/images/loader.gif" alt="loader-image" />
+    </div>
+    <!-- header area starts -->
+    <header class="header-area">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span>P</span>ortfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-0 main-menu"
+            id="mainNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link current" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header area ends -->
+
+    <!-- hero section starts -->
+    <section
+      class="hero-area d-flex justify-content-center text-center"
+      id="home"
+    >
+      <div class="hero-text align-self-center">
+        <p class="welcome">Hey There !</p>
+        <h1 class="user-post">I am <span class="myText typer"></span></h1>
+        <div class="social-info">
+          <a href="#" class="social-link"
+            ><i class="fab fa-facebook-f social-icon"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fab fa-twitter social-icon"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fab fa-google-plus-g social-icon"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fab fa-linkedin-in social-icon"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fab fa-dribbble social-icon"></i
+          ></a>
+        </div>
+
+        <div class="buttons">
+          <a href="#portfolio"
+            ><button class="btn btn-fill">Portfolio</button></a
+          >
+          <a href="#contact"
+            ><button class="btn btn-outline">Contact</button></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts  -->
+    <section class="about-area" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-4 col-12">
+            <img
+              src="assets/images/about.jpg"
+              alt="User's Photos"
+              class="about-img w-100"
+            />
+          </div>
+          <div class="col-lg-6 col-md-7 offset-md-1 offset-lg-1 col-12">
+            <div class="about-content">
+              <h2 class="primary-heading"><span>About</span> me</h2>
+              <h3 class="secondary-heading">
+                Web developer & graphics designer
+              </h3>
+              <p class="about-desc">
+                Delectus voluptates, consequuntur, voluptatibus nam ipsam sequi
+                necessitatibus similique eum vitae, quod odio illo! Eaque,
+                commodi inventore!
+              </p>
+              <p class="about-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate fuga unde, numquam eveniet animi ducimus.
+              </p>
+              <div class="social-info">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-facebook-f social-icon"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-twitter social-icon"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-google-plus-g social-icon"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-linkedin-in social-icon"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-dribbble social-icon"></i
+                ></a>
+              </div>
+              <a href="#contact"
+                ><button class="btn btn-outline">contact</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends   -->
+
+    <!-- education section starts -->
+    <section class="education-area" id="education">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="education-widgets">
+              <h2 class="education-title">Education</h2>
+              <div class="education-box">
+                <h3 class="post-title">Computer engineering</h3>
+                <p class="edu-desc">West Bengal university</p>
+              </div>
+              <div class="education-box">
+                <h3 class="post-title">masters in computer engineering</h3>
+                <p class="edu-desc">West Bengal university</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="education-widgets">
+              <h2 class="education-title">experience</h2>
+              <div class="education-box">
+                <h3 class="post-title">systems engineer</h3>
+                <span class="year">2013 &dash; 2015</span>
+                <p class="edu-desc">flow tech company</p>
+              </div>
+              <div class="education-box">
+                <h3 class="post-title">Senior systems engineer</h3>
+                <span class="year">2015 &dash; 2017</span>
+                <p class="edu-desc">flow tech company</p>
+              </div>
+              <div class="education-box">
+                <h3 class="post-title">team leader</h3>
+                <span class="year">2017 &dash; current</span>
+                <p class="edu-desc">flow tech company</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="education-widgets">
+              <h2 class="education-title">Education</h2>
+              <div class="education-box">
+                <p class="edu-desc">web development</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="education-box">
+                <p class="edu-desc">photoshop</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="education-box">
+                <p class="edu-desc">illustrator</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="education-box">
+                <p class="edu-desc">wordpress</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education section ends  -->
+
+    <!-- services area starts -->
+    <section class="services-area" id="services">
+      <div class="container">
+        <h2 class="page-title">our <span> Services </span></h2>
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-laptop service-icon"></i>
+              <h3 class="service-title">Web design</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-list-ul service-icon"></i>
+              <h3 class="service-title">PSD to HTML</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-chart-line service-icon"></i>
+              <h3 class="service-title">Online Marketing</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-briefcase service-icon"></i>
+              <h3 class="service-title">Web development</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-cogs service-icon"></i>
+              <h3 class="service-title">wordpress</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="service-box">
+              <i class="fas fa-leaf service-icon"></i>
+              <h3 class="service-title">Graphics design</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                molestias sunt maiores totam pariatur incidunt tenetur
+                voluptatibus deleniti id expedita.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services area ends -->
+
+    <!-- recent blog post starts -->
+    <section class="blog-post-area" id="blog">
+      <div class="container">
+        <h2 class="page-title">recent <span>blog</span> posts</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="posts">
+              <img
+                src="assets/images/blog/1.jpeg"
+                alt="Post Image"
+                class="post-img"
+              />
+              <div class="post-content">
+                <h3 class="post-title">Post name</h3>
+                <div class="post-meta">
+                  <em>by </em> <a href="#" class="post-author">Alex</a> /
+                  <span class="post-date">12 dec 2022</span>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Laborum consectetur autem a deserunt quas ratione, deleniti
+                  pariatur numquam nam? At totam vitae laudantium cumque eos
+                  facere, quam necessitatibus aliquam voluptate?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="posts">
+              <img
+                src="assets/images/blog/2.jpeg"
+                alt="Post Image"
+                class="post-img"
+              />
+              <div class="post-content">
+                <h3 class="post-title">Post name</h3>
+                <div class="post-meta">
+                  <em>by </em> <a href="#" class="post-author">Alex</a> /
+                  <span class="post-date">12 dec 2022</span>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Laborum consectetur autem a deserunt quas ratione, deleniti
+                  pariatur numquam nam? At totam vitae laudantium cumque eos
+                  facere, quam necessitatibus aliquam voluptate?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="posts">
+              <img
+                src="assets/images/blog/3.jpeg"
+                alt="Post Image"
+                class="post-img"
+              />
+              <div class="post-content">
+                <h3 class="post-title"><a href="#">Post name</a></h3>
+                <div class="post-meta">
+                  <em>by </em> <a href="#" class="post-author">Alex</a> /
+                  <span class="post-date">12 dec 2022</span>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Laborum consectetur autem a deserunt quas ratione, deleniti
+                  pariatur numquam nam? At totam vitae laudantium cumque eos
+                  facere, quam necessitatibus aliquam voluptate?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- recent blog post ends -->
+
+    <!-- portfolio section starts -->
+    <section class="portfolio-area" id="portfolio">
+      <div class="container">
+        <h2 class="page-title">our <span>portfolio</span></h2>
+
+        <ul class="portfolio-filters">
+          <li class="portfolio-list filter-active" data-filter="*">All</li>
+          <li class="portfolio-list" data-filter=".web-design">web design</li>
+          <li class="portfolio-list" data-filter=".graphics-design">
+            graphice design
+          </li>
+          <li class="portfolio-list" data-filter=".brand">Brand</li>
+        </ul>
+
+        <div class="portfolio">
+          <div class="row">
+            <div
+              class="col-md-3 portfolio-box web-design"
+              data-category="web-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-1.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-3 portfolio-box graphics-design"
+              data-category="graphics-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-2.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 portfolio-box graphics-design"
+              data-category="graphics-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-3.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 portfolio-box brand" data-category="brand">
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-4.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 portfolio-box graphics-design"
+              data-category="brand"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-5.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 portfolio-box web-design"
+              data-category="brand"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-6.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 portfolio-box brand" data-category="brand">
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-7.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 portfolio-box graphics-design"
+              data-category="graphics-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-8.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 portfolio-box web-design"
+              data-category="web-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-9.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 portfolio-box graphics-design"
+              data-category="graphics-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-10.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 portfolio-box web-design"
+              data-category="web-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-11.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 portfolio-box web-design"
+              data-category="web-design"
+            >
+              <div class="content-box">
+                <img
+                  src="assets/images/gallery/gallery-1.jpg"
+                  alt="Portfolio picture"
+                  class="portfolio-img"
+                />
+                <div class="img-overlay d-flex align-items-center">
+                  <div class="portfolio-content">
+                    <h3 class="portfolio-title">Web desing</h3>
+                    <i class="fas fa-link portfolio-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends -->
+
+    <!-- testimonia section starts -->
+    <section class="testimonial-area" id="testimonials">
+      <div class="container">
+        <h2 class="page-title">Our <span>Testimonial</span></h2>
+
+        <div class="row">
+          <div class="col-md-8 offset-2 col-sm-12">
+            <div class="testimonials owl-carousel">
+              <blockquote class="testimonial-content">
+                <i class="testimonial-icon fas fa-quote-right"></i>
+                <img
+                  src="assets/images/customers/ben.jpg"
+                  alt="Ben"
+                  class="customar-photo"
+                />
+                <div class="customer-content">
+                  <h3 class="customar-name">Ben</h3>
+                  <p class="customar-post">Web developer</p>
+                  <p class="customer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis, nesciunt laboriosam libero laborum nam dolores cumque
+                    commodi! Expedita labore laudantium dolores quisquam
+                    praesentium ipsam necessitatibus nisi autem, illo molestias
+                    mollitia!
+                  </p>
+                </div>
+              </blockquote>
+              <blockquote class="testimonial-content">
+                <i class="testimonial-icon fas fa-quote-right"></i>
+                <img
+                  src="assets/images/customers/steve.jpg"
+                  alt="Steve"
+                  class="customar-photo"
+                />
+                <div class="customer-content">
+                  <h3 class="customar-name">Steve</h3>
+                  <p class="customar-post">Web developer</p>
+                  <p class="customer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis, nesciunt laboriosam libero laborum nam dolores cumque
+                    commodi! Expedita labore laudantium dolores quisquam
+                    praesentium ipsam necessitatibus nisi autem, illo molestias
+                    mollitia!
+                  </p>
+                </div>
+              </blockquote>
+              <blockquote class="testimonial-content">
+                <i class="testimonial-icon fas fa-quote-right"></i>
+                <img
+                  src="assets/images/customers/hannah.jpg"
+                  alt="Hannah"
+                  class="customar-photo"
+                />
+                <div class="customer-content">
+                  <h3 class="customar-name">Hannah</h3>
+                  <p class="customar-post">Web developer</p>
+                  <p class="customer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis, nesciunt laboriosam libero laborum nam dolores cumque
+                    commodi! Expedita labore laudantium dolores quisquam
+                    praesentium ipsam necessitatibus nisi autem, illo molestias
+                    mollitia!
+                  </p>
+                </div>
+              </blockquote>
+              <blockquote class="testimonial-content">
+                <i class="testimonial-icon fas fa-quote-right"></i>
+                <img
+                  src="assets/images/customers/dave.jpg"
+                  alt="Dave"
+                  class="customar-photo"
+                />
+                <div class="customer-content">
+                  <h3 class="customar-name">Dave</h3>
+                  <p class="customar-post">Web developer</p>
+                  <p class="customer-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis, nesciunt laboriosam libero laborum nam dolores cumque
+                    commodi! Expedita labore laudantium dolores quisquam
+                    praesentium ipsam necessitatibus nisi autem, illo molestias
+                    mollitia!
+                  </p>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+          <!-- <div class="bullets-btn">
+                <span class="bullets"></span>
+                <span class="bullets"></span>
+                <span class="bullets"></span>
+              </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact-area" id="contact">
+      <div class="container">
+        <h2 class="page-title"><span>contact</span> us</h2>
+
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <div class="contact-info">
+              <div class="address">
+                <p class="contact-title">
+                  <i class="fas fa-paper-plane"></i> Address
+                </p>
+                <span class="contact-text">67,new york city, new york</span>
+              </div>
+              <div class="email">
+                <p class="contact-title">
+                  <i class="fas fa-envelope"></i> Email
+                </p>
+                <span class="contact-text">myportfoliomail.email.com</span>
+              </div>
+              <div class="email">
+                <p class="contact-title"><i class="fas fa-phone"></i> Phone</p>
+                <span class="contact-text">+444 987 765</span>
+              </div>
+            </div>
+
+            <form method="post" class="contact-form" netlify>
+              <input
+                type="text"
+                class="user-name"
+                name="user-name"
+                placeholder="Enter your name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                class="email"
+                placeholder="Enter your email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                placeholder="Enter your message"
+                class="message"
+              ></textarea>
+              <button type="submit" class="submit">
+                Submit <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer area starts-->
+    <footer class="footer-area">
+      <p>Copyright &copy; 2022 <a href="#">portfolio.</a></p>
+      <p>all right reserved</p>
+    </footer>
+    <!-- footer area ends -->
+
+    <a href="#home" class="scroll-top"
+      ><img src="assets/images/scroll-top-img.png" alt="Top"
+    /></a>
+
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Waypoint js -->
+    <script src="vendors/js/waypoint.js"></script>
+    <!-- isotope js -->
+    <script src="vendors/js/isotope.pkgd.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <!-- One Page Nave -->
+    <script src="vendors/js/jquery.nav.js"></script>
+    <!-- Typing Js -->
+    <script src="vendors/js/typer.js"></script>
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
